@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em Busca do Tesouro Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpg" alt="Mapa do tesouro">
+            <p>Durante uma viagem pelos mares do Caribe, encontrei um mapa antigo, coberto de tinta desbotada. Ele indicava a localização de um tesouro perdido, escondido em uma ilha misteriosa. Decidi seguir as pistas e embarcar na maior aventura de minha vida!</p>
+            <button class="btn-proximo" data-proximo="1">Ilha de Barataúba</button>
+            <button class="btn-proximo" data-proximo="2">Ilha da Lua Negra</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>A primeira pista me leva à Ilha de Barataúba, um lugar rodeado de lendas e histórias de piratas. O mapa indica que o tesouro está escondido em uma antiga fortaleza. Devo investigar?</p>
+            <button class="btn-proximo" data-proximo="3">Explorar a fortaleza</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para o navio</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>A pista seguinte me leva à Ilha da Lua Negra, onde os piratas esconderam o tesouro em algum ponto secreto. A cidade velha de Olinda Negra é famosa por suas construções antigas. Onde devo começar?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as ruínas antigas</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as cavernas costeiras</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na fortaleza, encontro uma inscrição secreta que revela que o tesouro foi movido para uma ilha mais distante, na misteriosa Floresta do Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Navegar até a Floresta do Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.jpg" alt="Voltar para o navio">
+            <p>Você decide que a busca está ficando perigosa demais e retorna para o navio, mas fica com a sensação de que perdeu uma grande oportunidade...</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Nas ruínas de Olinda Negra, você encontra um mapa oculto sob as pedras de um altar antigo. Ele indica que o tesouro está na Floresta do Amazonas. Agora é hora de zarpar!</p>
+            <button class="btn-proximo" data-proximo="7">Navegar até a Floresta do Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando as cavernas costeiras da Ilha da Lua Negra, você encontra algumas pistas, mas elas o levam a um labirinto escuro e sem fim, sem qualquer sinal do tesouro.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e investigar as ruínas antigas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Agora na Floresta do Amazonas, você se depara com um rio que se bifurca em duas direções. Qual caminho deve seguir para continuar a busca pelo tesouro?</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às ruínas de Olinda Negra, você finalmente encontra o mapa escondido. Agora, é hora de seguir para a Floresta do Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Navegar até a Floresta do Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Seguindo o rio à esquerda, você chega a uma cachoeira misteriosa, com inscrições antigas nas rochas que indicam a entrada de uma caverna subterrânea onde o tesouro está escondido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a caverna e encontrar o tesouro</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita leva a uma área pantanosa cheia de perigos e animais selvagens. Não há sinais do tesouro aqui, e você decide voltar.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11.jpg" alt="Tesouro escondido">
+            <p>Dentro da caverna, você encontra o tesouro perdido! Ouro, joias e artefatos antigos que os piratas guardaram por séculos. Agora, você decide manter o segredo do tesouro e protegê-lo para que ninguém mais o encontre.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Voltando ao rio à esquerda, você finalmente encontra a cachoeira e as inscrições que indicam a entrada da caverna onde o tesouro está escondido.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a caverna e encontrar o tesouro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
